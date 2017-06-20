@@ -9,8 +9,8 @@ Plugins can also include other flask files like views, models and forms.
 
 Simply add the required views, models and forms like in any flask application with minor changes in some files as specified in this template.
 
-To add your models to the PyBossa database, run the following python script
+## To add your models to the PyBossa database, run the following python script
 
-python cli.py create_db
+`python cli.py create_db`
 
 
