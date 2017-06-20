@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+
+<p>Quiz</p>
+
+<form method="post" name="create_quiz">
+	{{form.hidden_tag()}}
+		<b><p>{{ form.name }}
+			{% for message in form.name.errors %}
+			         <div>{{ message }}</div>
+			      {% endfor %}</p></b><br>
+	<input type="submit" value="Create"></input>
+</form>
+
+{% endblock %}
