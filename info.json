@@ -1,8 +1,8 @@
 {
-    "identifier": "quiz",
-    "name": "Quiz",
+    "identifier": "TemplatePlugin",
+    "name": "TemplatePlugin",
     "author": "saketkarve",
     "license": "AGPLv3",
-    "description": "Quiz for user evaluation",
+    "description": "Template for adding plugins to PyBossa",
     "version": "0.0.1"
 }
